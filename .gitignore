@@ -148,3 +148,5 @@ package.json.ember-try
 /coverage/*
 /libpeerconnection.log
 testem.log
+
+public/styles/output.css
