@@ -1,22 +1,23 @@
 {
-  "name": "test-cloudflare-pages",
-  "version": "1.0.0",
-  "description": "repository for testing cloudflare pages",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thechrisandrew/test-cloudflare-pages.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thechrisandrew/test-cloudflare-pages/issues"
-  },
-  "homepage": "https://github.com/thechrisandrew/test-cloudflare-pages#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.0.24"
-  }
+	"name": "test-cloudflare-pages",
+	"version": "1.0.0",
+	"description": "repository for testing cloudflare pages",
+	"main": "index.js",
+	"scripts": {
+		"buildcss-dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+		"buildcss": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thechrisandrew/test-cloudflare-pages.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/thechrisandrew/test-cloudflare-pages/issues"
+	},
+	"homepage": "https://github.com/thechrisandrew/test-cloudflare-pages#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.0.24"
+	}
 }
