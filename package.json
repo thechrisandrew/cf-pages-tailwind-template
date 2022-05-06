@@ -4,8 +4,8 @@
     "description": "repository for testing cloudflare pages",
     "main": "index.js",
     "scripts": {
-        "buildcss-dev": "npx tailwindcss -i ./src/styles/input.css -o ./public/main.css --watch",
-        "build": "npx tailwindcss -i ./src/styles/input.css -o ./public/main.css"
+        "buildcss-dev": "npx tailwindcss -i ./src/input.css -o ./public/main.css --watch",
+        "build": "npx tailwindcss -i ./src/input.css -o ./public/main.css"
     },
     "repository": {
         "type": "git",

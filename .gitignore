@@ -149,4 +149,4 @@ package.json.ember-try
 /libpeerconnection.log
 testem.log
 
-/public/styles/output.css
+/public/main.css
