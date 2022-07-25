@@ -11,7 +11,7 @@
 
 ## Description
 
-This is a template repository for creating a simple web frontend with Cloudflare Pages & Tailwind.
+This is a template repository for creating a simple static site with Cloudflare Pages & Tailwind.
 
 ## Cloudflare Pages Settings
 
